@@ -1,0 +1,39 @@
+h1 {
+    color: green;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    background-color: cadetblue;}
+
+nav{
+    font-size: 20px;}
+h2 {
+    color: royalblue;
+    text-decoration: underline}
+
+.bucket-list-facts {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(95, 158, 160, 0.5);}
+
+.list {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(95, 158, 160, 0.5);}
+
+.quotes {
+    font-style:italic;
+    color: white;
+    background-color: rgb(95, 158, 160, 0.5);
+    font-size: 20px}
+
+body {
+    background-image: url(../images/waterfall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+

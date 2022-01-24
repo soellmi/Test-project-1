@@ -3,25 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Mia's Bucket List</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <div>
-    <h2>Mia's Bucket List</h2>
-    <h3><u>List of things to do</u></h3>
-    <ul>
-        <li><s>Go skydiving</s></li>
-        <li>Get a diving certificate</li>
-        <li><s>Hug a koala</s></li>
-        <li>Take the Trans-Siberian Railroad</li>
-        <li>Learn to code</li>
-        <li><s>Swim in a waterfall</s></li>
-        <!-- TODO: Write more items here -->
-    </ul>    
-    </div>
-    <div>
-        <q><i>Life is not about the destination it's about the journey</i></q>
-    </div>
+    <header>
+        <h1>Mia's Bucket List</h1>
+        <nav>
+        <ul>
+            <li><a href="https://en.wiktionary.org/wiki/bucket_list" target="_blank"> 
+                What is a bucket list?</a></li>
+            <li><a href="#list-of-things-to-do">List of things to do</a></li>
+            <li><a href="#quotes">Quotes</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+       <section> <h2>What is a bucket list? </h2>
+            <p class="bucket-list-facts">From kick the bucket (“to die”) + list, hence a 
+            “list of things to do before you die”. The term was coined by American 
+            and British screenwriter Justin Zackham in his screenplay for the 2007 
+            film The Bucket List.[1] Zackham had created his own list called “Justin’s 
+            List of Things to Do Before I Kick the Bucket” which he then shortened to 
+            “Justin’s Bucket List”. The first item on his list was to have a 
+            screenplay produced at a major Hollywood studio. After a time, it occurred to 
+            him that the notion of a “bucket list” could itself be fodder for a film, so he 
+            wrote a screenplay about two dying men racing to complete their own bucket lists 
+            with the time they had left. Articles about the movie are the earliest 
+            known uses.</p></section>
+        <section id="list-of-things-to-do">
+            <h2>List of things to do</h2>
+            <ol class="list">
+            <li><s>Go skydiving</s></li>
+            <li>Get a diving certificate</li>
+            <li><s>Hug a koala</s></li>
+            <li>Take the Trans-Siberian Railroad</li>
+            <li>Learn to code</li>
+            <li><s>Swim in a waterfall</s></li>
+            <!-- TODO: Write more items here -->
+            </ol> </section> 
+            <img src="images/koala.jpg" alt="koala"title="koala in tree" width="600" height="315">
+        
+        <section id="quotes">
+            <h2>Quotes</h2>
+            <p class="quotes">
+             "Life is not about the destination it's about the journey"
+             <br>
+            <br>
+            "Take only pictures, leave only footprints.”</p>
+        </section>
+    </main>
+    <footer><h4>Safe journey</h4></footer>
 </body>
 </html>
